@@ -43,7 +43,7 @@ public class Student {
     public int hashCode() {
         return Objects.hash(marks);
     }
-
+// override the toString method
     @Override
     public String toString() {
         return "Student{id=" + id + ", name='" + name + "', marks=" + marks + '}';
