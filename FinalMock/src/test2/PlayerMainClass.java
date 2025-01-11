@@ -20,8 +20,7 @@ public class PlayerMainClass {
 		Iterator<Map.Entry<Player, String>> iterator = map.entrySet().iterator();
 		
 		while (iterator.hasNext()) {
-			Map.Entry<Player, String> entry = (Map.Entry<Player, String>) iterator
-					.next();
+			Map.Entry<Player, String> entry = (Map.Entry<Player, String>) iterator.next();
 			
 			Player player = entry.getKey();
 			
