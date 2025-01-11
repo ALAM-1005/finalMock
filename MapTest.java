@@ -48,7 +48,7 @@ import java.util.*;
                 System.out.println(countryMap.get(key));
             }
 
-            // Sorting using entrySet
+            // Sorting using entrySet in map
             List<Map.Entry<String, Country>> entryList = new ArrayList<>(countryMap.entrySet());
             entryList.sort((e1, e2) -> e2.getKey().compareTo(e1.getKey()));
             System.out.println("Sorted by entrySet:");
