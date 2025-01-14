@@ -12,6 +12,7 @@ public class MainClass {
 	        System.out.println("Upcasting: Person name is " + person.name);
 
 	        // Downcasting
+		 System.out.println("here is done about downcasting");
 	        if (person instanceof TrainingManager) {
 	            TrainingManager downcastedManager = (TrainingManager) person; // Downcasting Person to TrainingManager
 	            downcastedManager.manage();
