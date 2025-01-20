@@ -13,15 +13,15 @@ public class MainClass {
 	ArrayList<Person> al  = new ArrayList<Person>();
 	
 	al.add(new Student(3, "Alice"));
-    al.add(new Student(1, "Bob"));
-    al.add(new Student(2, "Charlie"));
+        al.add(new Student(1, "Bob"));
+        al.add(new Student(2, "Charlie"));
     
     
-    al.add(new Employee(102, "John"));
-    al.add(new Employee(101, "Jane"));
+       al.add(new Employee(102, "John"));
+       al.add(new Employee(101, "Jane"));
 
 		
-		Collections.sort(al, new PersonComparator());
+       Collections.sort(al, new PersonComparator());
 
         // Iterate over the combined and sorted list using a single Iterator
         Iterator<Person> iterator = al.iterator();
