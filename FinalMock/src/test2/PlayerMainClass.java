@@ -2,7 +2,6 @@ package test2;
 
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 import java.util.TreeMap;
 
 public class PlayerMainClass {
@@ -25,7 +24,7 @@ public class PlayerMainClass {
 			Player player = entry.getKey();
 			
 			
-			//System.out.println("PlayerId:"+player.playedId+" , PlayerNAme: "+player.playerName);
+			//System.out.println("PlayerId:"+player.playedId+" , PlayerNAme: "+player.playerName);   ---> without toString() override
 			
 			System.out.println(player);
 		

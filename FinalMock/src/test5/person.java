@@ -12,8 +12,6 @@ public class person implements Comparable <person> {
 		this.name = name;
 	}
 
-
-
 	@Override
 	public int compareTo(person p) {
 		
