@@ -56,7 +56,7 @@ public class MainClass {
 			
 			Map.Entry<person, Double> Entry = (Map.Entry<person,Double>)entry.next();
 			
-			if(Entry.getValue()>25)
+			//if(Entry.getValue()>25)
 			System.out.println(Entry.getKey().age+" ->"+Entry.getValue()+"->"+Entry.getKey().name);
 		}
 		
